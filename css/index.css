@@ -1,0 +1,13 @@
+.visual{
+  border:5px solid red;
+  width:100%;
+  height:700px;
+  margin:0 auto;
+  overflow:hidden;
+}
+.visual img{ 
+ border:3px solid lightsalmon;
+ width:74%;
+ height:100%;
+ margin:0 auto;
+}

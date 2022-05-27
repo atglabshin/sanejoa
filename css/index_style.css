@@ -1,0 +1,229 @@
+#pc-visual{
+  border:0px solid red;
+  width:100%;
+  height:700px;
+  margin:0 auto;
+  overflow:hidden;
+}
+#pc-visual .pc-visual-inner{ 
+ border:0px solid lightsalmon;
+ background-image: url("../images/index/map_example.png");
+ width:74%;
+ height:100%;
+ margin:0 auto;
+}
+
+/************content01 start**************/
+#content01{
+  width: 100%;
+  height:auto;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  border:3px solid lightgreen;
+}
+
+#content01 .content01-inner{
+  border:3px solid lightcoral;
+  width:74%;
+  height:100%;
+  margin:0 auto;
+  overflow:hidden;
+}
+/*(미디어쿼리)*/
+@media (min-width: 1200px){
+	#contents01 .content01-inner{
+		max-width: 1140px;
+	}
+}
+@media (min-width: 992px){
+	#contents01 .content01-inner{
+		max-width: 960px;
+	}
+}
+@media (min-width: 768px){
+	#contents01 .content01-inner{
+		max-width: 720px;
+	}
+}
+@media (min-width: 576px){
+	#contents01 .content01-inner{
+		max-width: 540px;
+	}
+}
+#content01 .content01-inner h3{
+  border:2px solid black;
+  color: #000;
+	font-size: 2rem;/*19px;*/
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+  padding-top: /*47px;*/ 2.45vw;
+  padding-bottom:/*32px;*/ 1.67vw;
+}
+#content01 .content01-inner ul{
+  border:2px solid lightsalmon;
+  overflow:hidden;
+  height:auto;
+}
+#content01 .content01-inner ul li{
+  border:0px solid lightgreen;
+  width: 20%;
+  height: 400px;
+  float: left;
+  margin-right: 1.33%;
+  display: table;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+#content01 .content01-inner ul li:last-child {
+margin: 0;
+}
+
+
+
+
+
+/************content01 end**************/
+/************content02 start**************/
+#content02 {
+  border:0px solid lightgreen;
+  width:100%;
+  height:auto;
+}
+#content02 #inner{
+  /*border:5px solid blue;*/
+  width:74%;
+  height:auto;
+  margin:0 auto;
+  overflow:hidden;
+  margin-bottom: 100px;
+}
+#content02 #inner .left{
+  border:5px solid orange;
+  width:74%;
+  height:auto;
+  margin-right: 2%;
+  float:left;
+}
+#content02 #inner .left h3{
+	border-bottom: 1px solid #f0f0f0;
+  color: #000;
+	font-size: 1.34vw;/*19px;*/
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+  padding-top: /*47px;*/ 2.45vw;
+  padding-bottom:/*32px;*/ 1.67vw;
+}
+#content02 #inner .left dl.top{
+  border:0px solid red;
+  border-radius: 10px;
+  width:100%;
+  height:auto;
+  overflow:hidden;
+  margin-top:15px;
+}
+
+#content02 #inner .left dl.top dt{
+  background:#f0f0f0;
+  border:0px solid green;
+  border-radius: 10px;
+  width:85px;
+  height:85px;
+  float:left;
+}
+#content02 #inner .left dl.top dt span{
+  border:0px solid red;
+	color: #000;
+	font-size: 30px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	display: block;
+  text-align: center;
+  margin-top:10px;
+}
+#content02 #inner .left dl.top dt p{
+  border:0px solid green;
+	color: #919191;
+	font-size: 14px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+  display: block;
+  text-align: center;
+}
+
+#content02 #inner .left dl.top dd{
+  border: 0px solid purple;
+  width:40%;/*1060*400*/
+  height:85px;
+  float:left;
+  font-size: 16px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+  overflow:hidden;
+  padding:10px 30px;
+}
+
+
+#content02 #inner .left .left-bottom{
+  border:0px solid magenta;  
+  width:100%;
+  height:auto;
+  display:inline-block;
+  overflow:hidden;
+}
+#content02 #inner .left .left-bottom h3{
+  border:0px solid black;
+  font-size: 1.34vw;/*19px;*/
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+  padding-top: /*47px;*/ 2.45vw;
+  padding-bottom:/*32px;*/ 1.67vw;
+
+}
+#content02 #inner .left .left-bottom ul.bottom{
+  border:0px solid rgb(118, 175, 11);
+  width:100%;
+  height:100%;
+  float:left;
+  overflow: hidden;
+}
+
+#content02 #inner .left .left-bottom ul.bottom ul{
+  border:3px solid #f0f0f0;
+  width:24%;
+  height:auto;
+  float: left;
+  border-radius:10px;
+  margin-right: 10px;
+  overflow:hidden;
+}
+#content02 #inner .left .left-bottom ul.bottom ul:last-child{
+  margin-right: 0;
+
+}
+#content02 #inner .right{
+  border:3px solid #f0f0f0;
+  width:24%;
+  height:480px;
+  float:right;
+  margin-top:20px;
+}
+#content02 #inner .right h3{
+ border:0px solid black;
+ color: #919191;
+ font-size: 19px;
+ font-family: 'Noto Sans KR', sans-serif;
+ font-style: normal;
+ font-weight: 600;
+ padding-top:30px;
+ padding-left:20px;
+}
+
+
